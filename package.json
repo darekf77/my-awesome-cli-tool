@@ -1,6 +1,6 @@
 {
   "name": "my-awesome-cli-tool",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "scripts": {
     "taon init": "taon init",
     "taon start": "taon start",
@@ -448,5 +448,9 @@
     "@parcel/watcher-linux-x64-glibc": "2.5.1",
     "@parcel/watcher-win32-x64-msvc": "2.5.1"
   },
-  "bin": {}
+  "bin": {
+    "my-awesome-cli-tool": "bin/my-awesome-cli-tool",
+    "my-awesome-cli-tool-debug": "bin/my-awesome-cli-tool-debug",
+    "my-awesome-cli-tool-debug-brk": "bin/my-awesome-cli-tool-debug-brk"
+  }
 }

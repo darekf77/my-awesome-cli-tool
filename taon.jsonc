@@ -5,6 +5,7 @@
 
   "autoReleaseConfigAllowedItems": [{
     "artifactName": "npm-lib-and-cli-tool",
+    "envName": "prod",
     "releaseType": "manual",
     "taskName": "npm"
   }, {
@@ -27,6 +28,7 @@
   "packageJsonOverride": {
     "author": "Darek",
     "description": "Description for my-awesome-cli-tool. Hello world!",
-    "private": true
+    "private": false,
+    "scripts": {}
   }
 }
