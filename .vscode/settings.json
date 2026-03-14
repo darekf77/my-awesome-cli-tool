@@ -114,7 +114,7 @@
     ".tnp": true
   },
 
-  "window.title": "taon-projects/my-awesome-cli-tool () [ ${activeEditorShort}]",
+  "window.title": "temp/my-awesome-cli-tool () [ ${activeEditorShort}]",
 
   "files.exclude": {
     "_changelog": true,

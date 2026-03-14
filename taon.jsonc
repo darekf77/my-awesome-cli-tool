@@ -3,7 +3,7 @@
   "version": "v21",
   "appId": "com.domain.example.my-awesome-cli-tool",
 
-  "overrideNameForCli": "my-awesome-command-line-tool",
+  "dependenciesNamesForNpmLib": ["reflect-metadata"],
 
   "autoReleaseConfigAllowedItems": [{
     "artifactName": "npm-lib-and-cli-tool",
@@ -24,6 +24,8 @@
     "taonInstanceIp": "127.0.0.1",
     "taskName": "localhost"
   }],
+
+  "overrideNameForCli": "my-awesome-command-line-tool",
 
   "shouldGenerateAutogenIndexFile": true,
 
