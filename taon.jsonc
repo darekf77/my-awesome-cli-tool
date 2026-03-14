@@ -1,6 +1,7 @@
 {
   "type": "isomorphic-lib",
   "version": "v21",
+  "appId": "com.domain.example.my-awesome-cli-tool",
 
   "autoReleaseConfigAllowedItems": [{
     "artifactName": "npm-lib-and-cli-tool",
@@ -24,8 +25,8 @@
   "shouldGenerateAutogenIndexFile": true,
 
   "packageJsonOverride": {
-    "private": true,
     "author": "Darek",
-    "description": "Description for my-awesome-cli-tool. Hello world!"
+    "description": "Description for my-awesome-cli-tool. Hello world!",
+    "private": true
   }
 }
